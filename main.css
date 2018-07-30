@@ -20,8 +20,9 @@ h2 {
 }
 table {
     width:100px;
-    border:10px gray;
+    border:1px gray;
 }
-tr, th {
+th, td {
     border:10px;
+    padding: 20px;
 }
