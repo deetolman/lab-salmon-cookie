@@ -1,0 +1,27 @@
+h1 {
+   text-align: left;
+    color: #C75215;
+}
+body {
+    color: #C75215;
+    background-color: papayawhip;
+    font-family: 'Roboto', sans-serif;
+   } 
+
+#about-us {
+    color:#745C51;
+    margin:100px 10px 20px 10px;
+    width: 400px;
+    border: 10px solid gray;
+    padding: 5px;
+}
+h2 {
+    font-family:Arial, Helvetica, sans-serif
+}
+table {
+    width:100px;
+    border:10px gray;
+}
+tr, th {
+    border:10px;
+}
