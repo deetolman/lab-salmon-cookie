@@ -14,15 +14,15 @@ body {
    } 
 span {
     font-size: 22px;
-    padding-right: 50px;
+    padding-right:100px;
 }
 #about-us {
     color:#44414C;
-    position: relative;
+    position: sticky;
     font-family: sans-serif
 }
 #about-us {
-    border: solid gray; 
+    border: 5px solid gray; 
     padding:20px;
     line-height:1.5
 }
