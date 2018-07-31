@@ -9,10 +9,12 @@ body {
    } 
 
 #about-us {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color:#745C51;
-    width: 600px;
-    border: 10px solid gray;
-    padding: 10px #FBD4C0;
+    width: 800px;
+    border: 25px solid gray;
+    padding: 30px #F26419;
+    margin: 10px;
 }
 h2 {
     font-family:Arial, Helvetica, sans-serif
