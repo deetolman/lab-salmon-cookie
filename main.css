@@ -31,7 +31,7 @@ footer {
     align-content: center
 }
 h2 {
-    font-family:sans-serif
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 table {
     border-top: double;
@@ -43,7 +43,4 @@ table {
 th, td {
     border:1px green;
     padding: 20px;
-}
-footer {
-    padding-right: 20px;
 }
