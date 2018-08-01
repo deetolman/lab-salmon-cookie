@@ -1,5 +1,8 @@
 'use strict';
 //(function(module) {
+
+
+
     var stores = [{
         location: 'Pike Place Market',
         min: '23',
@@ -47,4 +50,4 @@ function customerPerHour(min,max) {
     return Math.random() * (max-min) + min;
 }
 
-console.log(stores)
+module.stores = stores;
