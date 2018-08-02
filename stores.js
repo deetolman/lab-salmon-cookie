@@ -4,7 +4,7 @@
 
 
 
-    var stores = [{
+    let stores = [{
         location: 'Pike Place Market',
         min: 23,
         max: 65,
@@ -41,11 +41,11 @@
         dailyTotal:0
     }];
 
-    for(var i = 0; i < stores.length; i++) {
+    for(let i = 0; i < stores.length; i++) {
         stores[i].hours = []; 
-        for(var j = 0; j < 15; j++) {
-            var hoursArray = stores[i].hours; 
-            var cookiesSoldHour = customerPerHour(stores[i].min, stores[i].max) * stores[i].avg;
+        for(let j = 0; j < 15; j++) {
+            let hoursArray = stores[i].hours; 
+            let cookiesSoldHour = customerPerHour(stores[i].min, stores[i].max) * stores[i].avg;
             hoursArray.push(cookiesSoldHour);
             stores[i].dailyTotal += cookiesSoldHour; }      
           
